@@ -1,0 +1,87 @@
+::placeholder{
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  background-image: url('/assets/search-solid.svg');
+  background-repeat: no-repeat;
+  background-position-x: 30%;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.middlearea{
+  max-height: 200px !important;
+}
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+.card{
+  margin-top: 30px;
+}
+nav{
+  height: 54px;
+  background-color: white;
+}
+nav > .logo{
+  margin-left: 192px;
+}
+body{
+  padding-top: 38px;
+  background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+div div div.col-md-6 div.card .card-body a *{
+  display: flex;
+}
+div div div.col-md-6 div.card .card-body a{
+  float: left;
+  margin-right: 3px;
+}
+div span strong i{
+  float: right;
+}
+ul.list-group.list-group-horizontal.mt-1{
+  border: 0px;
+}
+.card-footer{
+  text-align: right;
+}
+#sticky-sidebar{
+  position: fixed;
+  background-color: white;
+  border: 0px;
+}
